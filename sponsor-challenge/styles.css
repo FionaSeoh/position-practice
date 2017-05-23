@@ -30,19 +30,21 @@ body {
 	font-family: 'Gotham', Helvetica, sans-serif;
 	background-color: #485563;
 }
-h1{
+/*h1{
 	padding-left: 20px;
-}
+}*/
 .container {
-	max-width: 1100px;
-	margin: 0 auto;
+	/*max-width: 1100px;*/
 	background-color: white;
-/*	margin-top: 0;*/
+	margin: 0 5% 0 5%;
+	padding: 20px 10px 10px 10px;
+
+/*	margin: top right bottom left;*/
 
 }
 
 .section {
-	width: 30%;
+	width: 27%;
 	margin-right: 5%;
 	display: inline-block;
 	vertical-align: top;
@@ -50,7 +52,7 @@ h1{
 .logos{
 	display:inline-block;
 	width: 100%;
-	margin-left: 6.25%;
+/*	margin-left: 6.25%;*/
 	vertical-align: top;
 	margin: 0 2.5% 36px 2.5%;
 }
@@ -62,11 +64,15 @@ h1{
 .logo img {
     max-width: 45%;
     padding: 2.5%;
-    height: auto;
+/*    height: auto;*/
     /*margin: 0 2.5% 36px 2.5%;*/	
 }
+.two{
+
+}
 .three {
-	margin-right: 0;
+	margin-right: 2%;
+
 }
 
 .laughpic{
@@ -75,7 +81,7 @@ h1{
 /*	position: absolute;*/
 	height: 300px;
 	position: relative;
-	margin-right: 10%;
+	/*margin-right: 10%;*/
 }
 span{
 	margin-left: 20px;
@@ -105,13 +111,33 @@ span{
 
 @media screen and (max-width: 900px) {
 	/* Refer to the 875px-wide browser screenshot for how this should look */
-
-
+	.one{
+		width: 45%;
+	}
+	.two{
+		width: 45%;
+	}
+	.laughpic{
+		background-image: url("images/bg.jpg");
+		background-size: cover;
+	/*	position: absolute;*/
+	/*	height: 300px;*/
+		position: relative;
+		
 }
+	.three{
+		width: 90%;
+		display: block;
+		margin: auto;
+	}
 
 @media screen and (max-width: 550px) {
 	/* Refer to the 525px-wide browser screenshot for how this should look */
 	/* At this point the partner logos switch back to just being two across. */
+	.section{
+		width:80%;
+		padding:20px;
+	}
 
 
 }
