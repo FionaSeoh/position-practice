@@ -73,6 +73,7 @@ body {
 /*	position: absolute;*/
 	height: 300px;
 	position: relative;
+	margin-right: 10%;
 }
 span{
 	margin-left: 20px;
